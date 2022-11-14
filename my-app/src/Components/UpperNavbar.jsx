@@ -7,6 +7,7 @@ import usaicon from "./Images/usaflag.png";
 
 
 import {Link as RouterLink} from "react-router-dom"
+import Login from "../Newlogin/Login";
 const UpperNavbar = () => {
   return (
     <Box
@@ -45,7 +46,10 @@ const UpperNavbar = () => {
           <Text fontSize={"14px"}>
 
           </Text>
+          {/* <Login /> */}
+          {/* <Link to="/login"> */}
           <Icon as={BsPerson} w={"18px"} h={"18px"} marginTop={"2px"} />
+          {/* </Link> */}
         </Box>
         <RouterLink to={ "/bagReview"}><Box>
           <Icon as={BsBag} w={"20px"} h={"20px"}></Icon> 
